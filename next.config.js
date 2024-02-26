@@ -1,7 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   swcMinify: true,
+  assetPrefix: 'https://laivdata-aitutor.netlify.app',
+
+  images: {
+    unoptimized: true,
+  },
+
   webpack(config) {
     config.experiments = { ...config.experiments, topLevelAwait: true };
     return config;
