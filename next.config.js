@@ -5,7 +5,6 @@ const nextConfig = {
   assetPrefix: 'https://laivdata-aitutor.netlify.app/',
 
   images: {
-    unoptimized: true,
     loader: 'default',
   },
 
