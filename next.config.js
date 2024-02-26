@@ -5,7 +5,7 @@ const nextConfig = {
   assetPrefix: 'https://laivdata-aitutor.netlify.app/',
 
   images: {
-    loader: 'default',
+    unoptimized: true,
   },
 
   webpack(config) {
