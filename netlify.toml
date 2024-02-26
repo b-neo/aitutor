@@ -1,6 +1,8 @@
 [build]
+  publish = "out"
   functions = "netlify/functions"
- 
 
-[[plugins]]
-package = "@netlify/plugin-nextjs"
+[build.environment]
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+ 
