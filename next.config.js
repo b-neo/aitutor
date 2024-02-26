@@ -6,6 +6,7 @@ const nextConfig = {
 
   images: {
     unoptimized: true,
+    loader: 'default',
   },
 
   webpack(config) {
