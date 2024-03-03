@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: false,
   swcMinify: true,
-  assetPrefix: 'https://laivdata-aitutor.netlify.app/',
 
   images: {
     unoptimized: true,
